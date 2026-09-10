@@ -3,8 +3,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 from googletrans import Translator
-import json
 from streamlit_lottie import st_lottie
+import json
 
 # 1. Creamos una función para cargar los archivos JSON de Lottie
 def load_lottiefile(filepath: str):
